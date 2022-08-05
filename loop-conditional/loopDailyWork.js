@@ -16,7 +16,7 @@ var arr = ['unlock module at 8 pm', 'watch vedio and practice', 'take notes', 's
 console.log('with For Loop');
 for(var i = 0; i < 2; i++){
     for(var j = 0; j < arr.length; j++){
-    console.log(j + ". " + arr[j]);
+    console.log(j, ". ", arr[j]);
     }
 }
 console.log(' ');
@@ -29,7 +29,7 @@ var i = 0;
 while(i < 2){
     var j = 0;
     while(j < arr.length){
-    console.log(j + ". " + arr[j]);  
+    console.log(j, ". ", arr[j]);  
     j++;}
 i++;
 }
@@ -42,7 +42,7 @@ console.log('with For Loop Reverse');
 var arrLength = arr.length-1;
 for(var j = 1; j >= 0; j--){
     for(var i = arrLength; i >= 0; i--){
-        console.log(i + ". " + arr[i]);
+        console.log(i, ". ", arr[i]);
         }
     }
     console.log(' ');
@@ -56,7 +56,7 @@ while(j >= 0){
     var arrLength = arr.length-1;
     var i = arrLength;
     while(i >= 0){
-            console.log(i + ". " + arr[i]);
+            console.log(i, ". ", arr[i]);
             i--;
         }
         j--;

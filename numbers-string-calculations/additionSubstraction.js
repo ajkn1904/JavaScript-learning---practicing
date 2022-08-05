@@ -6,12 +6,14 @@ sample input:
 output:
 300 */
 
-var takaFromMom = 1000
-var applePrice = 300
-var orangePrice = 400
+var takaFromMom = 1000;
+var applePrice = 300;
+var orangePrice = 400;
 
-var expanse = (applePrice + orangePrice)
+var expanse = (applePrice + orangePrice);
 
-var returnTaka = (takaFromMom - expanse)
+var returnTaka = (takaFromMom - expanse);
 
-console.log(returnTaka)
+console.log();
+console.log(returnTaka);
+console.log();

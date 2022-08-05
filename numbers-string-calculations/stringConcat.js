@@ -10,8 +10,11 @@ an awesome web developer
 Output:
 I am going to be an awesome web developer */
 
-var str1 = "I am going to be"
-var str2 = "an awesome web developer"
+var str1 = "I am going to be";
+var str2 = "an awesome web developer";
 
-var result = (str1 + " " + str2)
-console.log(result)
+var result = (str1, " ", str2);
+
+console.log();
+console.log(result);
+console.log();

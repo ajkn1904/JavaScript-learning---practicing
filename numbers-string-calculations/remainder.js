@@ -9,4 +9,7 @@ var givenNum = 119;
 var divisor = 5;
 
 var remainder = (givenNum % divisor);
+
+console.log();
 console.log(remainder);
+console.log();

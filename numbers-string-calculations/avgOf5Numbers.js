@@ -5,16 +5,19 @@ sample input:
 output:
 71.04*/
 
-var math = 75.25 
-var bio = 65
-var chm = 80
-var phy = 35.45
-var bng = 99.50
+var math = 75.25; 
+var bio = 65;
+var chm = 80;
+var phy = 35.45;
+var bng = 99.50;
 
-var numOfSub = 5
+var numOfSub = 5;
 
-var avg = ((math + bio + chm + phy + bng) / numOfSub)
-avg = avg.toFixed(2)
-console.log(avg)
-avg = parseInt(avg)
-console.log(avg)
+var avg = ((math + bio + chm + phy + bng) / numOfSub);
+avg = avg.toFixed(2);
+console.log(avg);
+avg = parseInt(avg);
+
+console.log();
+console.log(avg);
+console.log();

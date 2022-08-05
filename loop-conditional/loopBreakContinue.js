@@ -20,7 +20,7 @@ var booksPrice = [120, 150, 465, 375, 200, 110, 125, 200, 470, 155, 190, 900];
 var sum = 0;
 console.log(" ");
 console.log("Continue a loop at specific value.")
-console.log("Total number of books: "+booksPrice.length);
+console.log("Total number of books: ", booksPrice.length);
 for(var i = 0; i < booksPrice.length; i++){
 if(booksPrice[i] > 200){
     continue;
@@ -30,5 +30,5 @@ else{
 }
 sum++;
 }
-console.log("Except books with price 200 taka, the number of books is: " + sum);
+console.log("Except books with price 200 taka, the number of books is: ", sum);
 console.log(" ");
