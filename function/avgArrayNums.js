@@ -11,7 +11,7 @@ function make_avg(){
     }
     console.log("Sum is: ", sum);
     
-    avg = sum / length;
+    let avg = sum / length;
     return avg;
 }
 console.log();

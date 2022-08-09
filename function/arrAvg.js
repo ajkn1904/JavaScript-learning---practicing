@@ -4,6 +4,8 @@ function arrAvg(){
     let a = [65, 9, 22, 79, 49, 23, 12, 87];
     let len = a.length;
     console.log("Length of the array is:", len);
+
+    
     let sum = 0;
     for(let i = 0; i < len; i++){
         sum = sum + a[i];

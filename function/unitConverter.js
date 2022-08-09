@@ -24,3 +24,19 @@ const hr2 = 4;
 console.log();
 const result2 = console.log(hr2, "hour is:", unitConv2(hr2), "seconds");
 console.log();
+
+
+/* The standerd heighty of vollyball players is 7 feet. Jim wants to join the vollyball team, so he decided to measure his height to see if he meets the standerd. Calculate his height in feet. [1 feet = 12 inch]
+Sample input: 84
+Output: 7 */
+
+function inchToFeet(num){
+    let feet = num / 12;
+    return feet;
+}
+
+let inch = 84;
+console.log();
+console.log(inch, 'inch', '=', inchToFeet(inch), 'feet');
+console.log();
+

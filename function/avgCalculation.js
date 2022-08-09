@@ -7,7 +7,7 @@ function make_avg (a, b, c){
     return avg;
 }
 
-var num1 = 39;
+var num1 = 39; 
 var num2 = 15;
 var num3 = 20;
 console.log();
