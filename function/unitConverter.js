@@ -40,3 +40,16 @@ console.log();
 console.log(inch, 'inch', '=', inchToFeet(inch), 'feet');
 console.log();
 
+
+
+/* 2. Write a function called centimeterToMeter() take centimeter as the input parameter and will it into meter and will return the result in meter. [1m = 100cm] */
+
+function centimeterToMeter(num){
+    let meter = num / 100;
+    return meter;
+}
+
+let centimeter = 856;
+console.log();
+console.log(centimeter, 'centimeter', '=', centimeterToMeter(centimeter), 'meter');
+console.log();
