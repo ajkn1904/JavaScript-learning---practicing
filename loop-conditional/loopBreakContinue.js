@@ -1,4 +1,4 @@
-//Run a  for loop from 30 to 86. This loop will stop if the values get highest than 44
+// 1. Run a  for loop from 30 to 86. This loop will stop if the values get highest than 44
 var lowerBound = 30;
 var upperBound = 86;
 console.log(" ");
@@ -14,7 +14,7 @@ for(var i = lowerBound; i <= upperBound; i++){
 console.log(" ");
 
 
-//Write the price of the books you have. Declare an array with the prices and display the prices if they are lower than 200. 
+// 2. Write the price of the books you have. Declare an array with the prices and display the prices if they are lower than 200. 
 
 var booksPrice = [120, 150, 465, 375, 200, 110, 125, 200, 470, 155, 190, 900];
 var sum = 0;
