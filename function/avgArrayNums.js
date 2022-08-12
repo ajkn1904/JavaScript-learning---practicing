@@ -16,6 +16,6 @@ function make_avg(){
 }
 console.log();
 const returnedValue = make_avg();
-const average = returnedValue.toFixed(2);
+const average = parseFloat(returnedValue.toFixed(2));
 console.log("The average value of the array elements is: ", average);
 console.log();
