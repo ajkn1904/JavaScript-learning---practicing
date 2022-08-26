@@ -2,8 +2,11 @@
 of this array and give output. Do this using for loop &
 array.reduce() method. */
 
-const array = [ 1, 9, 17, 22 ];
+
 const initialValue = 0;
+
+
+const array = [ 1, 9, 17, 22 ];
 const result = array.reduce((nums, items) => {
     return (nums + items);
 }, initialValue);
