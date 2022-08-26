@@ -38,7 +38,9 @@ return avg;
 };
 
 const arrNum = [3, 5, 2, 7, 8, 1, 4];
+console.log('');
 console.log('Average is: ', arrowSumAvg(arrNum));
+console.log('');
 
 /*3. Write an arrow function where it will do the following:
 a) It will take two array inputs
@@ -55,4 +57,6 @@ const maxNumOfArray = (nums1, nums2) =>{
 const arr1 = [2, 3, 0, 1, 9];
 const arr2 = [11, 4, 17, 3, 5];
 
+console.log('');
 console.log('Maximum value is: ', maxNumOfArray(arr1, arr2));
+console.log('');
