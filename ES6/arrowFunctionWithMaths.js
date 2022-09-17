@@ -1,12 +1,12 @@
 //Task 1:
-const noPera = () =>{ return 89;}
+const noPera = () =>89;
 console.log("");
 console.log(noPera());
 console.log("");
 
 
 //Task 2:
-const arrowDivision = (num) =>{ return (num / 17);}
+const arrowDivision = (num) =>(num / 17)
 
 console.log("");
 console.log(arrowDivision(153));
@@ -15,7 +15,7 @@ console.log("");
 
 
 //Task 3:
-const arrowAvg = (num1, num2) =>{return ((num1 + num2) / 2);}
+const arrowAvg = (num1, num2) =>(num1 + num2) / 2;
 
 console.log("");
 console.log(arrowAvg(7,3));
